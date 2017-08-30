@@ -37,14 +37,13 @@ header {
 	width: 100%;
 	background-color: white;
 	height: 4rem;
-	margin: 0;
+	margin-bottom: 1rem;
 }
 
 .header-content {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	padding: 2rem 1.5rem;
+	padding: 1rem 1.5rem;
 	margin: auto;
 }
 
@@ -81,6 +80,7 @@ header nav ul {
 	display: flex;
 	font-size: 1.4rem;
 	padding-right: 1.5rem;
+	padding-top: 0.75rem;
 }
 
 header nav ul li {
@@ -95,6 +95,10 @@ header nav ul li {
 	.header-content {
 		justify-content: space-evenly;
 		margin: 0;
+	}
+
+	.header-logo {
+		padding-top: 0.8rem;
 	}
 	
 	.desktop-links {
@@ -124,5 +128,66 @@ header nav ul li {
 	header nav ul {
 		padding-right: 0;
 	}
-	
 }
+
+/*///Banner///*/
+
+.jumbotron {
+	background-color: hsl(223, 0%, 80%);
+	width: 100%;
+}
+
+.banner-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 1.5rem;
+}
+
+.banner-image {
+	width: 60%;
+	display: flex;
+}
+
+.banner-header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: left;
+	width: 30%;
+	padding: 6rem;
+}
+
+.title {
+	color: hsl(223, 0%, 30%);
+	font-size: 4rem;
+	font-weight: 700;
+	padding-bottom: 1.5rem;
+	line-height: 1.2;
+}
+
+.banner-header h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: hsl(223, 0%, 30%);
+	line-height: 1.2;
+	padding-bottom: 3rem;
+}
+
+.banner-header a {
+	background-color: hsl(223, 0%, 30%);
+	font-size: 2rem;
+	font-weight: 700;
+	color: white;
+	padding: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+	
