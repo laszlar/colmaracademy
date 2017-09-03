@@ -133,7 +133,7 @@ header nav ul li {
 /*///Banner///*/
 
 .jumbotron {
-	background-color: hsl(223, 0%, 80%);
+	background-color: hsl(223, 0%, 85%);
 	width: 100%;
 }
 
@@ -223,6 +223,171 @@ header nav ul li {
 		font-size: 1.5rem;
 		width: 90%;
 	}
+}
+
+/*///AboutSchool///*/
+
+.about-school-section {
+	display: flex;
+	flex-direction: row;
+}
+
+/*Left Side*/
+
+.left-side-content {
+	width: 60%;
+	padding: 2rem 1.5rem;
+	border-right: 1px solid hsl(223, 0%, 30%);
+}
+
+.left-side-content img {
+	padding-bottom: 2rem;
+}
+
+.description-under-banner {
+	display: flex;
+	flex-direction: column;
+}
+
+.description-under-banner h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 2rem;
+}
+
+.description-under-banner h3 {
+	line-height: 1.2;
+	font-size: 1.5rem;
+	color: hsl(223, 0%, 30%);
+	padding-right: 3rem;
+}
+
+.description-under-banner h4 {
+	color: hsl(223, 0%, 30%);
+	padding-top: 2rem;
+}
+
+/*Right Side*/
+
+.right-side-content {
+	padding: 2rem 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 40%;
+}
+
+.top-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.top-container img {
+	height: auto;
+	width: 35%;
+	padding: 0rem 1rem 1rem 1rem;
+}
+
+.top-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.top-description h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 0.5rem;
+}
+
+.top-description h4 {
+	font-size: 1.5rem;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 0.5rem;
+}
+
+.top-description a {
+	text-decoration: none;
+	color: hsl(224, 100%, 70%);
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+
+.mid-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.mid-container img {
+	height: auto;
+	width: 35%;
+	padding: 1rem;
+}
+
+.mid-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.mid-description h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 0.5rem;
+}
+
+.mid-description h4 {
+	font-size: 1.5rem;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 0.5rem;
+}
+
+.mid-description a {
+	text-decoration: none;
+	color: hsl(224, 100%, 70%);
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+
+.bottom-container {
+	display: flex;
+	flex-direction: row;
+	background-color: hsl(223, 0%, 85%);
+}
+
+.bottom-container img {
+	height: auto;
+	width: 35%;
+	padding: 1rem;
+}
+
+.bottom-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bottom-description h2 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 0.5rem;
+}
+
+.bottom-description h4 {
+	font-size: 1.5rem;
+	color: hsl(223, 0%, 30%);
+	padding-bottom: 0.5rem;
+}
+
+.bottom-description a {
+	text-decoration: none;
+	color: hsl(224, 100%, 70%);
+	font-size: 1.1rem;
+	font-weight: 700;
 }
 
 	
