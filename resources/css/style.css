@@ -426,10 +426,11 @@ header nav ul li {
 	}
 
 	.mid-container {
-		flex-direction: column ;
+		flex-direction: column;
 		padding: 1rem 1rem 1rem -1rem;
-		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 	}
+
 	.mid-container img {
 		width: 100%;
 		height: 75%;
@@ -442,8 +443,7 @@ header nav ul li {
 
 	.bottom-container {
 		flex-direction: column;
-		padding: 1rem 1rem 1rem -1rem;
-		margin: 1rem;
+		margin-bottom: 1rem;
 		width: 100%;
 	}
 	.bottom-container img {
@@ -453,6 +453,7 @@ header nav ul li {
 
 	.bottom-description {
 		padding-left: 2rem;
+		padding-bottom: 1rem;
 		height: 25%;
 	}
 }
