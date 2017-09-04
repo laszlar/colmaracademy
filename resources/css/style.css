@@ -445,7 +445,9 @@ header nav ul li {
 		flex-direction: column;
 		margin-bottom: 1rem;
 		width: 100%;
+		background-color: white;
 	}
+
 	.bottom-container img {
 		width: 100%;
 		height: 75%;
@@ -471,5 +473,234 @@ header nav ul li {
 		height: auto;
 	}
 }
+
+/*///Start Learning Section///*/
+
+.mobile-learning {
+	display: none;
+}
+
+.start-learning {
+	background-color: hsl(223, 0%, 90%);
+}
+
+.entire-container {
+	padding: 0 4.5rem 2rem 4.5rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.entire-container h1 {
+	font-weight: 700;
+	font-size: 4rem;
+	color: hsl(223, 0%, 30%);
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.top-learning {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+.bottom-learning {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	padding-top: 2rem;
+}
+
+.software {
+	background-color: white;
+}
+
+.software-description {
+	padding: 1rem;
+}
+
+.software-description h2 {
+	font-size: 2rem;
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+}
+
+.software-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	padding: 0.5rem 0;
+}
+
+.software-description h4 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
+.computer-art {
+	background-color: white;
+}
+
+.computer-art-description {
+	padding: 1rem;
+}
+
+.computer-art-description h2 {
+	font-size: 2rem;
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+}
+
+.computer-art-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	padding: 0.5rem 0;
+}
+
+.computer-art-description h4 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
+.design {
+	background-color: white;
+}
+
+.design-description {
+	padding: 1rem;
+}
+
+.design-description h2 {
+	font-size: 2rem;
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+}
+
+.design-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	padding: 0.5rem 0;
+}
+
+.design-description h4 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
+.data {
+	background-color: white;
+}
+
+.data-description {
+	padding: 1rem;
+}
+
+.data-description h2 {
+	font-size: 2rem;
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+}
+
+.data-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	padding: 0.5rem 0;
+}
+
+.data-description h4 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
+.business {
+	background-color: white;
+}
+
+.business-description {
+	padding: 1rem;
+}
+
+.business-description h2 {
+	font-size: 2rem;
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+}
+
+.business-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	padding: 0.5rem 0;
+}
+
+.business-description h4 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
+.marketing {
+	background-color: white;
+}
+
+.marketing-description {
+	padding: 1rem;
+}
+
+.marketing-description h2 {
+	font-size: 2rem;
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+}
+
+.marketing-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	padding: 0.5rem 0;
+}
+
+.marketing-description h4 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
+@media only screen and (max-width: 1024px) {
+	.mobile-learning {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.software-mobile,
+	.computer-art-mobile, 
+	.design-mobile,
+	.data-mobile,
+	.business-mobile,
+	.marketing-mobile {
+		background-color: hsl(223, 0%, 90%);
+		color: hsl(223, 0%, 30%);
+		font-size: 1.5rem;
+		font-weight: 700;
+		padding: 1rem 0 1.5rem 1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.start-learning {
+		background-color: white;
+	}
+
+	.top-learning {
+		display: none;
+	}
+
+	.bottom-learning {
+		display: none;
+	}
+}
+
 
 	
