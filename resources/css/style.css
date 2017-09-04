@@ -513,156 +513,51 @@ header nav ul li {
 	padding-top: 2rem;
 }
 
-.software {
+.software,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing{
 	background-color: white;
 }
 
-.software-description {
-	padding: 1rem;
-}
-
-.software-description h2 {
-	font-size: 2rem;
-	color: hsl(223, 0%, 30%);
-	font-weight: 700;
-}
-
-.software-description h3 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	padding: 0.5rem 0;
-}
-
-.software-description h4 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	line-height: 1.2;
-}
-
-.computer-art {
-	background-color: white;
-}
-
-.computer-art-description {
-	padding: 1rem;
-}
-
-.computer-art-description h2 {
-	font-size: 2rem;
-	color: hsl(223, 0%, 30%);
-	font-weight: 700;
-}
-
-.computer-art-description h3 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	padding: 0.5rem 0;
-}
-
-.computer-art-description h4 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	line-height: 1.2;
-}
-
-.design {
-	background-color: white;
-}
-
-.design-description {
-	padding: 1rem;
-}
-
-.design-description h2 {
-	font-size: 2rem;
-	color: hsl(223, 0%, 30%);
-	font-weight: 700;
-}
-
-.design-description h3 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	padding: 0.5rem 0;
-}
-
-.design-description h4 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	line-height: 1.2;
-}
-
-.data {
-	background-color: white;
-}
-
-.data-description {
-	padding: 1rem;
-}
-
-.data-description h2 {
-	font-size: 2rem;
-	color: hsl(223, 0%, 30%);
-	font-weight: 700;
-}
-
-.data-description h3 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	padding: 0.5rem 0;
-}
-
-.data-description h4 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	line-height: 1.2;
-}
-
-.business {
-	background-color: white;
-}
-
-.business-description {
-	padding: 1rem;
-}
-
-.business-description h2 {
-	font-size: 2rem;
-	color: hsl(223, 0%, 30%);
-	font-weight: 700;
-}
-
-.business-description h3 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	padding: 0.5rem 0;
-}
-
-.business-description h4 {
-	font-size: 1.25rem;
-	color: hsl(223, 0%, 40%);
-	line-height: 1.2;
-}
-
-.marketing {
-	background-color: white;
-}
-
+.software-description,
+.computer-art-description,
+.design-description,
+.data-description,
+.business-description,
 .marketing-description {
 	padding: 1rem;
 }
 
+.software-description h2,
+.computer-art-description h2,
+.design-description h2,
+.data-description h2,
+.business-description h2, 
 .marketing-description h2 {
 	font-size: 2rem;
 	color: hsl(223, 0%, 30%);
 	font-weight: 700;
 }
 
+.software-description h3,
+.computer-art-description h3,
+.design-description h3,
+.data-description h3,
+.business-description h3,
 .marketing-description h3 {
 	font-size: 1.25rem;
 	color: hsl(223, 0%, 40%);
 	padding: 0.5rem 0;
 }
 
+.software-description h4,
+.computer-art-description h4,
+.design-description h4,
+.data-description h4,
+.business-description h4,
 .marketing-description h4 {
 	font-size: 1.25rem;
 	color: hsl(223, 0%, 40%);
