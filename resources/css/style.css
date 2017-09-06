@@ -596,5 +596,48 @@ header nav ul li {
 	}
 }
 
+/*///Thesis Section///*/
+
+.thesis {
+	background-color: white;
+}
+
+.thesis h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	color: hsl(223, 0%, 30%);
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.thesis-container {
+	padding: 0 0 2rem 2rem;
+	display: flex;
+	flex-flow: row;
+}
+
+.left-thesis-container {
+	width: 60%;
+}
+
+.left-thesis-container video {
+	height: auto;
+	width: 100%;
+}
+
+.left-thesis-description h2 {
+	color: hsl(223, 0%, 30%);
+	font-weight: 700;
+	font-size: 2rem;
+	padding: 1.5rem 0 0.5rem 0;
+}
+
+.left-thesis-description h3 {
+	font-size: 1.25rem;
+	color: hsl(223, 0%, 40%);
+	line-height: 1.2;
+}
+
 
 	
