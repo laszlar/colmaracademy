@@ -523,12 +523,14 @@ header nav ul li {
 .top-learning {
 	display: flex;
 	flex-flow: row;
+	width: 100%;
 }
 
 .bottom-learning {
 	display: flex;
 	flex-flow: row;
 	padding-top: 2rem;
+	width: 100%;
 }
 
 .computer-art,
