@@ -279,6 +279,10 @@ header nav ul li {
 	width: 40%;
 }
 
+.right-side-content-mobile {
+	display: none;
+}
+
 .top-container {
 	display: flex;
 	flex-direction: row;
@@ -403,9 +407,22 @@ header nav ul li {
 	.left-side-content {
 		width: 100%;
 		padding: 2rem 0;
+		border: none;
+	}
+
+	.description-under-banner {
+		padding-left: 1.5rem;
 	}
 
 	.right-side-content {
+		display: none;
+	}
+
+	.right-side-content-mobile {
+		padding: 2rem 0;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
 		width: 100%;
 	}
 
@@ -511,14 +528,19 @@ header nav ul li {
 .top-learning {
 	display: flex;
 	flex-flow: row;
-	justify-content: space-around;
 }
 
 .bottom-learning {
 	display: flex;
 	flex-flow: row;
-	justify-content: space-around;
 	padding-top: 2rem;
+}
+
+.computer-art,
+.design,
+.business,
+.marketing {
+	margin-left: 2rem;
 }
 
 .software,
