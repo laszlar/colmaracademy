@@ -509,6 +509,7 @@ header nav ul li {
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
+	width: 100%;
 }
 
 .entire-container h1 {
