@@ -315,11 +315,20 @@ header nav ul li {
 	padding-bottom: 0.5rem;
 }
 
-.top-description a {
+.top-description a,
+.mid-description a, 
+.bottom-description a {
 	text-decoration: none;
 	color: hsl(224, 100%, 70%);
 	font-size: 1.1rem;
-	font-weight: 700;
+	font-weight: 700; 
+	transition: color 250ms ease-in;
+}
+
+.top-description a:hover,
+.mid-description a:hover,
+.bottom-description a:hover {
+	color: hsl(224, 100%, 25%);
 }
 
 .mid-container {
@@ -353,13 +362,6 @@ header nav ul li {
 	padding-bottom: 0.5rem;
 }
 
-.mid-description a {
-	text-decoration: none;
-	color: hsl(224, 100%, 70%);
-	font-size: 1.1rem;
-	font-weight: 700;
-}
-
 .bottom-container {
 	display: flex;
 	flex-direction: row;
@@ -390,13 +392,6 @@ header nav ul li {
 	font-size: 1.5rem;
 	color: hsl(223, 0%, 30%);
 	padding-bottom: 0.5rem;
-}
-
-.bottom-description a {
-	text-decoration: none;
-	color: hsl(224, 100%, 70%);
-	font-size: 1.1rem;
-	font-weight: 700;
 }
 
 @media only screen and (max-width: 1024px) {
